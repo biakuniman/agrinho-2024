@@ -20,3 +20,60 @@
     background-color: rgb(98, 158, 54);
     
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body {
+  background-image: url(end-road-with-beautiful-rainbow-after-rainy-weather.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  }
+  
+  h1{
+    font-size: 90px;
+    color: #5a2a04;
+    margin: 5px 50px 20px;
+    margin-top: 3%;
+  }
+  
+  p{
+    color: #1f0e01;
+    margin: 5px 50px 20px;
+    margin-top: 3%;
+    font-size: 35px;
+  }
+  
+  .home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+  }
+  
+  .home-text{
+    max-width: 37rem;
+  }
+  
+  .home-text .text-h4{
+    font-size: 1.9rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+  }
+  
+  .home-text .text-h1{
+    font-size: 95px;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+  }
+  .home-text p{
+    margin-bottom: 4rem;
+  }
